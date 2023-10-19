@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Mochiy+Pop+P+One&family=Neonderthaw&family=Roboto+Mono:wght@300&family=Rubik+Beastly&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Atma', cursive;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 28px;
+    margin-right: 40px;
+}
+#logo img{
+    height: 42px;
+    filter: invert(1);
+}
+#navbar{
+    background-color: #8a2a2a;
+    
+    padding: 13px 14px;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+  
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 13px 30px;
+    color: whitesmoke;
+    font-size: 1.2rem;
+}
+#navbar li a:hover{
+   color: black;
+}
+#introsection{
+    color: whitesmoke;
+    flex-direction: column;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: center / cover no-repeat url("/static/ph.jpg");
+    height: 300px;
+    background-color: red;
+}
+#introsection div.small{
+    font-size: 1.3rem;
+    padding: 7px;
+}
+
+#missionsection{
+    height: 326px;
+    width:67%;
+    margin: auto;
+    
+}
+#missionsection h2{
+    text-align: center;
+    padding-top: 12px;
+}
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius:10px;
+    width: 30%;
+    margin: 23px 10px;
+    height: 209px;
+}
+
+.card h3{
+    text-align: center;
+    margin:12px;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img img{
+    height: 110px;
+    padding: 0px 14px;
+    margin: 12px 12px;
+}
+.card-img{
+    height: inherit;
+}
+.card-content{
+    padding: 0 10px;
+}
+.card-content p{
+    font-size: 19px;
+}
+#sponsorsection{
+    height: 300px;
+    background-color: grey;
+}
+
+#sponsorsection h2{
+   text-align: center;
+   padding-top: 12px;
+
+}
+#sponsors{
+    height: 242px;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+.spImage{
+    height: 70%;
+    margin: 20px;
+}
+#footer{
+    background-color: yellow;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}

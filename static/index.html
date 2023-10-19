@@ -1,0 +1,55 @@
+html
+  head
+  body
+    | //- index.pug
+    | doctype html
+    | html
+    | head
+    | style
+    | include ../static/style.css
+    | body
+    | nav#navbar
+    | ul
+    | div#logo
+    | img(src=&quot;/static/logo.png&quot;)
+    | |HDA
+    | li #[a(href=&quot;/&quot;) Home]
+    | li #[a(href=&quot;/&quot;) about]
+    | li #[a(href=&quot;/contact&quot;) contact]
+    | li #[a(href=&quot;/&quot;) services]
+    | section#introsection
+    | div Welcome to Aditya&apos;s Dance Academy
+    | div.small Eat Sleep Dance Repeat
+    | section#missionsection
+    | h2 Our mission
+    | div.card
+    | h3 Dance Perfection
+    | div.card-box
+    | div.card-img
+    | img(src=&quot;/static/ab.png&quot;)
+    | div.card-content
+    | p This is best Dance academy
+    | div.card
+    | h3 Dance the way you like
+    | div.card-box
+    | div.card-img
+    | img(src=&quot;/static/ac.png&quot;)
+    | div.card-content
+    | p Cultural Dance
+    | div.card
+    | h3 Expert teaching
+    | div.card-box
+    | div.card-img
+    | img(src=&quot;/static/ae.png&quot;)
+    | div.card-content
+    | p Dance+ Hip Hop
+    | section#sponsorsection
+    | h2 Our Sponsors
+    | div#sponsors
+    | img(src=&quot;/static/sp.png&quot;, alt=&quot;sponsor image&quot;,class=&quot;spImage&quot;)
+    | img(src=&quot;/static/s2.png&quot;, alt=&quot;sponsor image&quot;,class=&quot;spImage&quot;)
+    | img(src=&quot;/static/s3.png&quot;, alt=&quot;sponsor image&quot;,class=&quot;spImage&quot;)
+    | footer#footer
+    | | Copyright &copy; 2022 Aditya Gour All rights reserved
+    | script
+    | include ../static/style.css
